@@ -5,6 +5,8 @@ import TabTest from "./components/custom-tabs/tab-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-darker-mode";
+import LoadMoreData from "./components/load-more-data";
+import QRCodeGenerator from "./qr-code-generator";
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
         limit={"10"}
       />
       <LightDarkMode />
+      <LoadMoreData />
+      <QRCodeGenerator />
     </div>
   );
 }
